@@ -9,4 +9,9 @@
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.2.0-preview.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Zampa.Core\Zampa.Core.csproj" />
+    <ProjectReference Include="..\Zampa.Data\Zampa.Data.csproj" />
+  </ItemGroup>
+
 </Project>
